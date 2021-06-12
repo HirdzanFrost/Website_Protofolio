@@ -1,0 +1,401 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    margin: 0px 0px;
+    padding: 0px 120px;
+    /* background-color: #020303cb; */
+    background-image: url(./Forest.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+h5{
+    font-family: 'Montserrat', sans-serif;
+    color: #60f087;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+/* --------icon---------- */
+.fab {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    background: transparent;
+    border: 2px solid;
+    color: #61F087;
+    border-radius: 5px;
+    
+  }
+  
+.fab:hover {
+    color: #EBECE9;
+
+
+}
+.fas{
+    padding: 1px;
+    font-size: 20px;
+    /* width: 10px; */
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    background: transparent;
+    color: #61F087;
+    border-radius: 5px;
+}
+/* --------navbar---------- */
+
+
+.nav-container{
+    font-family: 'Open Sans', sans-serif;
+    /* font-size: 16px; */
+    width: 77.5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: #1d2122;
+    border-bottom: #050505 1px solid;
+    position: fixed;
+    align-items: center;
+    /* left: 120px;
+    right: 200px; */
+}
+
+.nav-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #EBECE9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link a{
+    margin: 0 20px;
+    text-decoration: none;
+    color : #61F087;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+}
+
+.nav-link a:hover{
+    /* text-decoration: underline; */
+    color: #EBECE9;
+}
+
+.nav-brand:hover{
+    color: #61F087;
+}
+
+/* ------nav style end----- */
+/* ------page tittle start */
+.page-title{
+    display: flex;
+    padding: 250px 0px 200px 90px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(./bg-title.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #3E4549; */
+}
+
+.page-container{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* border: 1px solid white; */
+
+}
+.title-head-1, .title-head-2, .title-content{
+    margin: 1px 0px;
+}
+.title-head-1{
+    font-size: 20px;
+    font-weight: 300;
+    color: #EBECE9;
+}
+
+.title-head-2{
+    font-size: 30px;
+    letter-spacing: 0.2px;
+    color: #61F087;
+}
+
+.title-content{
+    font-size: 20px;
+    color: #EBECE9;
+
+}
+.button-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-content a{
+    margin: 10px 10px 0px 0px;
+    text-decoration: none;
+    /* color : #EBECE9; */
+    font-size: 16px;
+    letter-spacing: 0.1px;
+}
+
+.btn-dl-cv{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    background-color:  #61F087;
+    color: #000000;
+    margin-top: 36px;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 10px;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.btn-dl-cv:hover{
+    background-color:#7a848a;
+    color: #ffffff;
+}
+
+
+/* ------page tittle end-------- */
+/* ------page about me----------- */
+.about-me{
+    background-color: #1d2122;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    flex-direction: row;
+    margin-top: 1px;
+}
+.about-me h5{
+    margin: 10px 0px;
+    text-align: left;
+
+}
+.line{
+    width:50%;
+    margin-left:0;
+}
+.abt-head img{
+    height: 300px;
+    width: 200px;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+.abt-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 80px;
+}
+.abt-container p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: #ffffff;
+
+}
+
+/* -------expertise----- */
+
+.fa-html5, .fa-css3, .fa-js, .fa-unity, .fa-react{
+    padding: 30px;
+    font-size: 60px;
+    /* width: 10px; */
+    text-align: center;
+    text-decoration: none;
+    /* margin: 5px 2px; */
+    background: transparent;
+    border: solid 1px #61F087;
+    color: #61F087;
+}
+.expertise{
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.expertise-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.expert-card{
+    margin: 24px 16px;
+}
+
+.expert-head{
+    background-color:  transparent;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expert-body p{
+    text-align: center;
+    color: #60f087;
+    font-family: 'Open Sans', sans-serif;
+    margin-top:0px;
+    font-weight: 200px;
+}
+
+
+/* -------------- */
+
+.footer{
+    font-family: 'Open Sans', sans-serif;
+    color:#60f087;
+    display: flex;
+    margin-right: 5px;
+    font-size: 12px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    background-color: #1d2022;
+    border-top: #050505 1px solid;
+
+    /* position: fixed; */
+}
+
+.footer p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a{
+    border: none;
+}
+
+/* ---------contact-us------------ */
+
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #1d2122; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: #1d2122;
+}
+
+::placeholder { 
+    color: #ffffff ;
+}
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color:  #61F087;
+    color: #000000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.25s ease-in-out;
+    
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color:#7a848a;
+    color: #ffffff;
+    
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contact-container {
+        font-family: 'Montserrat', sans-serif;
+        color: #EBECE9 ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 125px 110px 150px 90px;
+        margin: 0px 5px 0px 0px ;
+        background-color: #3e454973;
+        /* padding: 100px 20px 60px 20px; */
+  } 
+
+    form{
+        width: 470px;
+    }
+
+    .text{
+        line-height:30px;
+        text-align: left;
+        width: 400px;
+        height: 420px;
+        letter-spacing: 0.5px;
+        /* border: solid 1px; */
+        margin-left: 50px;
+        font-weight: 300px;
+        margin-top: 0px;
+    }
+
+    .text p{
+        margin-top: 0px;
+    }
+
+    .text h5{
+        text-align: left;
+    }
+
+    .text hr{
+        color: #60f087;
+        width: 100%
+        ;}
+
+    .adress{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .adress p{
+        margin-bottom: 0;
+    }
+
+    .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social a{
+        margin: 10px;
+    }
+
+    /* .footer i{
+        font-size: 12px;
+    } */
+
+ 
